@@ -14,13 +14,14 @@ I build enterprise software on Odoo, Python and PostgreSQL, and the platforms th
 
 #### Open source
 
-I contribute to the Odoo Community Association (OCA), Ansible and the Python ecosystem:
+I contribute to the Odoo Community Association (OCA), Ansible, pyinfra and the Python ecosystem:
 
 - [OCA/hr-expense#391](https://github.com/OCA/hr-expense/pull/391): adapt `hr_expense_exception` to the `base_exception` rollback (merged)
 - [OCA/openupgradelib#475](https://github.com/OCA/openupgradelib/pull/475): migrate company dependent booleans as JSON booleans
 - [OCA/server-tools#3793](https://github.com/OCA/server-tools/pull/3793): `base_exception` test helper that silently skipped tests
 - [ansible-collections/community.postgresql#961](https://github.com/ansible-collections/community.postgresql/pull/961): `postgresql_info` crash on databases without extensions (merged)
 - [ansible/ansible-lint#5214](https://github.com/ansible/ansible-lint/pull/5214), [#5216](https://github.com/ansible/ansible-lint/pull/5216): `PATH` injection fixes (duplicate entries, user-installed ansible never found)
+- [pyinfra-dev/pyinfra#2030](https://github.com/pyinfra-dev/pyinfra/pull/2030): `crontab` silently failing on commands with wildcards
 - [docker/docker-py#3454](https://github.com/docker/docker-py/pull/3454): `.dockerignore` parent-directory matching
 
 #### Connect
