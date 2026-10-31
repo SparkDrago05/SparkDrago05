@@ -23,6 +23,7 @@ I contribute to the Odoo Community Association (OCA), Ansible, pyinfra and the P
 - [ansible-collections/community.postgresql#961](https://github.com/ansible-collections/community.postgresql/pull/961): `postgresql_info` crash on databases without extensions (merged)
 - [ansible/ansible-lint#5214](https://github.com/ansible/ansible-lint/pull/5214), [#5216](https://github.com/ansible/ansible-lint/pull/5216): `PATH` injection fixes (duplicate entries, user-installed ansible never found)
 - [pyinfra-dev/pyinfra#2030](https://github.com/pyinfra-dev/pyinfra/pull/2030): `crontab` silently failing on commands with wildcards (merged)
+- [pyinfra-dev/pyinfra#2043](https://github.com/pyinfra-dev/pyinfra/pull/2043): `files.put --diff` crashing or hanging on binary files
 - [docker/docker-py#3454](https://github.com/docker/docker-py/pull/3454): `.dockerignore` parent-directory matching
 
 #### Connect
