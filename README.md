@@ -24,6 +24,7 @@ I contribute to the Odoo Community Association (OCA), Ansible, pyinfra and the P
 - [ansible/ansible-lint#5214](https://github.com/ansible/ansible-lint/pull/5214), [#5216](https://github.com/ansible/ansible-lint/pull/5216): `PATH` injection fixes (duplicate entries, user-installed ansible never found)
 - [pyinfra-dev/pyinfra#2030](https://github.com/pyinfra-dev/pyinfra/pull/2030): `crontab` silently failing on commands with wildcards (merged)
 - [pyinfra-dev/pyinfra#2043](https://github.com/pyinfra-dev/pyinfra/pull/2043): `files.put --diff` crashing or hanging on binary files (merged)
+- [pyinfra-dev/pyinfra#2058](https://github.com/pyinfra-dev/pyinfra/pull/2058): declare the public API (`__all__`) so type checkers stop flagging documented imports
 - [docker/docker-py#3454](https://github.com/docker/docker-py/pull/3454): `.dockerignore` parent-directory matching
 
 #### Connect
